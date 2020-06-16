@@ -1,4 +1,4 @@
-magical_park = (a, m, n, k, s) => {
+magicalPark = (a, m, n, k, s) => {
     let success = true;
   
     for (let i = 0; i < m; i++) {
@@ -32,7 +32,7 @@ magical_park = (a, m, n, k, s) => {
     }
 }
 
-magical_park([
+magicalPark([
     [".", ".", "*", "."], 
     [".", "#", ".", "."],
     ["*", "*", ".", "."],
